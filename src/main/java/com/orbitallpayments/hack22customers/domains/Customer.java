@@ -2,6 +2,7 @@ package com.orbitallpayments.hack22customers.domains;
 
 import lombok.Generated;
 import lombok.Getter;
+import lombok.Setter;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -11,6 +12,7 @@ import java.io.Serializable;
 
 @Entity
 @Getter
+@Setter
 public class Customer implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
